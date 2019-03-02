@@ -148,7 +148,7 @@ ol li {
   margin: 0px;
 }
 
-.section-titile-bg {
+.section-title-bg {
   display: inline;
   font-size: 115px;
   font-weight: 700;
@@ -1453,6 +1453,7 @@ a.back-to-top:focus {
 }
 
 .team-item {
+  background: #fff;
   margin: 15px 0;
   padding: 10px;
   border-radius: 4px;
