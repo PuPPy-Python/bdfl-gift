@@ -1,0 +1,22 @@
+image: node:alpine
+
+stages:
+  - deploy
+
+
+deploy:
+  image: python:latest
+  stage: deploy
+  dependencies:
+    - .
+  before_script:
+    - pip install awscli
+  script:
+    - aws s3 sync . s3://${AWS_BUCKET} --delete
+#    - aws cloudfront create-invalidation --distribution-id ${AWS_DISTRIBUTION_ID} --paths '/*'
+  environment:
+    name: staging
+    url: ${STAGING_URL}
+  only:
+    - develop
+
