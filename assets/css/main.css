@@ -148,7 +148,7 @@ ol li {
   margin: 0px;
 }
 
-.section-titile-bg {
+.section-title-bg {
   display: inline;
   font-size: 115px;
   font-weight: 700;
@@ -2330,7 +2330,7 @@ a.back-to-top:focus {
 #main-slide .carousel-caption {
   color: #fff;
   position: absolute;
-  top:10%;
+  top: 20%;
 }
 
 #main-slide .carousel-caption .btn {

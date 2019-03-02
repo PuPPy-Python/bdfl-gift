@@ -1,0 +1,29 @@
+* {
+  /* outline: dotted orangered 1px; */
+}
+
+
+/*==> Hero & Speakers Section <==*/
+#main-slide .carousel-caption {
+  color: #fff;
+  position: absolute;
+  top: 12%;
+}
+
+#main-slide .carousel-item .carousel-caption .info-text p {
+  font-size: 13px;
+}
+
+p:nth-child(3) {
+  padding: 36px 0 0 0;
+}
+
+#main-slide .carousel-caption a.btn {
+  margin-right: 0;
+}
+
+
+/*==> Event Countdown Section <==*/
+section.counter-section.section-padding {
+  padding-top: 0;
+}
