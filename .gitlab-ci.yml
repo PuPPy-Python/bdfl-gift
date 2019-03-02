@@ -6,8 +6,6 @@ stages:
 deploy:
   image: python:latest
   stage: deploy
-  dependencies:
-    - * 
   before_script:
     - pip install awscli
   script:
@@ -18,4 +16,3 @@ deploy:
     url: ${STAGING_URL}
   only:
     - develop
-
