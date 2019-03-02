@@ -2330,7 +2330,7 @@ a.back-to-top:focus {
 #main-slide .carousel-caption {
   color: #fff;
   position: absolute;
-  top: 20%;
+  top:10%;
 }
 
 #main-slide .carousel-caption .btn {
