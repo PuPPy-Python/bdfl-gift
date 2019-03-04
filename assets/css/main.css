@@ -945,16 +945,6 @@ a.back-to-top:focus {
   background: #000;
 }
 
-@media screen and (max-width: 1199px) {
-  #main-slide .carousel-item img {
-    position: absolute;
-  }
-
-  #main-slide .carousel-caption {
-    position: static;
-  }
-}
-
 @media screen and (max-width: 1140px) {
   #banner_stickey {
     display: none;
