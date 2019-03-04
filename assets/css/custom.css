@@ -2,7 +2,6 @@
   /* outline: dotted orangered 1px; */
 }
 
-
 /*==> Hero & Speakers Section <==*/
 #main-slide .carousel-caption {
   color: #fff;
@@ -22,8 +21,23 @@ p:nth-child(3) {
   margin-right: 0;
 }
 
-
 /*==> Event Countdown Section <==*/
 section.counter-section.section-padding {
   padding-top: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  #main-slide .carousel-item img.d-block.w-100 {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #main-slide .carousel-inner .carousel-item::after {
+    display: none;
+  }
+
+  #main-slide .carousel-caption {
+    position: static;
+    padding-top: 70px;
+  }
 }
