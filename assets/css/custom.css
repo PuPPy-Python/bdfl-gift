@@ -5,7 +5,7 @@
 /*==> Hero & Speakers Section <==*/
 #main-slide .carousel-caption {
   color: #fff;
-  position: absolute;
+  position: static;
   top: 12%;
 }
 
