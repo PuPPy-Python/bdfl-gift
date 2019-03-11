@@ -14,7 +14,7 @@
 }
 
 p:nth-child(3) {
-  padding: 36px 0 0 0;
+  /* padding: 36px 0 0 0; */
 }
 
 #main-slide .carousel-caption a.btn {

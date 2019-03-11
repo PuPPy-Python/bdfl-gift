@@ -587,7 +587,7 @@ a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 90px 0;
+  padding: 50px 0;
 }
 
 .no-padding {
@@ -944,8 +944,10 @@ a.back-to-top:focus {
 }
 
 .carousel-item {
+  background: url("../img/slider/slide1.jpg") 0px 0px no-repeat;
+  background-size: cover;
   min-height: 550px;
-  background: #000;
+  /* background: #000; */
 }
 
 @media screen and (max-width: 1140px) {
@@ -1912,6 +1914,10 @@ a.back-to-top:focus {
   font-weight: 700;
   padding-bottom: 10px;
   letter-spacing: 0.5px;
+  display: inline-block;
+  background: #fff;
+  padding: 14px 19px;
+  border-radius: 7px;
 }
 
 .footer-area p {
