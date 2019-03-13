@@ -1,9 +1,21 @@
 * {
   /* outline: dotted orangered 1px; */
 }
+/* #header-wrap > nav > div > div.navbar-header > a > img  */
+.puppy-brand {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  background: #fff;
+  padding: 5px 10px;;
+  border-radius: 7px;
+}
 
 .section-padding {
-  padding-top: 116px;
+  padding: 116px 0;
 }
 
 /*==> Hero & Speakers Section <==*/
