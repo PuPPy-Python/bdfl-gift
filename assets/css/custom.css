@@ -14,13 +14,16 @@
   border-radius: 7px;
 }
 
-
 .section-padding {
   padding: 90px 0;
 }
 
 
 /*==> Hero & Speakers Section <==*/
+div.modal-body p {
+  padding-bottom: 1rem;
+}
+
 #main-slide .carousel-caption {
   color: #fff;
   position: static;
