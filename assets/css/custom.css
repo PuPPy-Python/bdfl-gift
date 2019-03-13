@@ -1,0 +1,110 @@
+* {
+  /* outline: dotted orangered 1px; */
+}
+/* #header-wrap > nav > div > div.navbar-header > a > img  */
+.puppy-brand {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 10px;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  background: #fff;
+  padding: 5px 10px;;
+  border-radius: 7px;
+}
+
+.section-padding {
+  padding: 90px 0;
+}
+
+#main-slide > div > div > div > h1 {
+margin-bottom: 0.1em;
+}
+
+#main-slide > div > div > div > p.seattle {
+  margin-bottom: 1em;
+  }
+
+/*==> Hero & Speakers Section <==*/
+div.modal-body p {
+  padding-bottom: 1rem;
+}
+
+#main-slide .carousel-caption {
+  color: #fff;
+  position: static;
+  top: 12%;
+}
+#main-slide .carousel-item .carousel-caption .info-text p {
+  font-size: 13px;
+}
+
+p:nth-child(3) {
+  /* padding: 36px 0 0 0; */
+}
+
+#main-slide .carousel-caption a.btn {
+  margin-right: 0;
+}
+
+.get-tickets-row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.other_speaker_title h5 {
+  text-align: center;
+}
+
+/*==> Event Countdown Section <==*/
+section.counter-section.section-padding {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  #main-slide .carousel-item img.d-block.w-100 {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #main-slide .carousel-inner .carousel-item::after {
+    display: none;
+  }
+
+  #main-slide .carousel-caption {
+    position: static;
+    padding-top: 70px;
+  }
+}
+
+/*==> Register Section <==*/
+#pricing .price-block-wrapper .pricing-list {
+  padding: 10px 0px 10px 0px;
+  text-align: left;
+}
+#pricing .price-block-wrapper .pricing-list p {
+  padding: 0.4rem;
+}
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+
+/*==> FAQ Section <==*/
+section#faq {
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
+.content-ordered-list li {
+  list-style: decimal;
+}
+
+.list-content-padding {
+  padding: 0 15px 36px 30px
+}
