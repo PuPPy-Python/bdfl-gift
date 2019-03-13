@@ -18,6 +18,13 @@
   padding: 90px 0;
 }
 
+#main-slide > div > div > div > h1 {
+margin-bottom: 0.1em;
+}
+
+#main-slide > div > div > div > p.seattle {
+  margin-bottom: 1em;
+  }
 
 /*==> Hero & Speakers Section <==*/
 div.modal-body p {
