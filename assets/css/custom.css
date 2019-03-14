@@ -18,6 +18,13 @@
   padding: 90px 0;
 }
 
+.btn-common {
+  background-color: #EC185B;
+}
+.btn-common:hover {
+  background-color: #037AB0;
+}
+
 #main-slide > div > div > div > h1 {
 margin-bottom: 0.1em;
 }
