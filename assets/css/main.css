@@ -97,7 +97,7 @@ ol li {
 }
 
 .modal-social-icons {
-  display: flex;
+  display: none;
   width: 100%;
 }
 
@@ -1021,6 +1021,12 @@ a.back-to-top:focus {
   }
 }
 
+@media (max-width: 767px) {
+  .time-entry {
+    width: 30%;
+  }
+}
+
 .about-item {
   padding: 10px;
   /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.17); */
@@ -1489,11 +1495,12 @@ a.back-to-top:focus {
 
 .team-item .team-img {
   position: relative;
-  cursor: pointer;
+  /* cursor: pointer; */
   overflow: hidden;
 }
 
 .team-item .team-overlay {
+  display: none;
   height: 100%;
   cursor: default;
   position: absolute;
