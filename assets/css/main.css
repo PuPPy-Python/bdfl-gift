@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700");
+@import url('https://fonts.googleapis.com/css?family=Lato:400|Josefin+Sans:700');
 html {
   overflow-x: hidden;
 }
@@ -7,7 +7,7 @@ body {
   background: #fff;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -26,7 +26,7 @@ h3,
 h4 {
   font-size: 36px;
   font-weight: 700;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 a {
@@ -54,7 +54,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0px;
   font-size: 14px;
 }
@@ -200,7 +200,7 @@ ol li {
 
 .section-title:before {
   position: absolute;
-  content: "";
+  content: '';
   left: 15px;
   bottom: 8px;
   width: 48px;
@@ -210,7 +210,7 @@ ol li {
 
 .section-title:after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0px;
   bottom: 2px;
   width: 48px;
@@ -247,7 +247,7 @@ ol li {
 
 .section-sub:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 1px;
   width: 45px;
   left: 50%;
@@ -428,7 +428,7 @@ a.back-to-top:focus {
 }
 
 .sk-circle .sk-child:before {
-  content: "";
+  content: '';
   display: block;
   margin: 0 auto;
   width: 15%;
@@ -615,7 +615,7 @@ a.back-to-top:focus {
 }
 
 .page-banner:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -750,7 +750,7 @@ a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li > a:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 50%;
@@ -822,7 +822,7 @@ a.back-to-top:focus {
 }
 
 .dropdown-menu:before {
-  content: "";
+  content: '';
   display: inline-block;
   position: absolute;
   bottom: 100%;
@@ -944,7 +944,7 @@ a.back-to-top:focus {
 }
 
 .carousel-item {
-  background: url("../img/background/keyboard-hand.jpg") 0px 0px no-repeat;
+  background: url('../img/background/keyboard-hand.jpg') 0px 0px no-repeat;
   background-size: cover;
   min-height: 550px;
   /* background: #000; */
@@ -1093,7 +1093,7 @@ a.back-to-top:focus {
   background: #037ab0;
   overflow: hidden;
   position: relative;
-  /* 
+  /*
     &:before{
     	content: '';
     	position: absolute;
@@ -1302,8 +1302,8 @@ a.back-to-top:focus {
 }
 
 .accordion .header-title:after {
-  font-family: "LineIcons";
-  content: "\e93a";
+  font-family: 'LineIcons';
+  content: '\e93a';
   position: absolute;
   right: 10px;
   color: #999;
@@ -1314,7 +1314,7 @@ a.back-to-top:focus {
 }
 
 .accordion .collapsed:after {
-  content: "\e940";
+  content: '\e940';
 }
 
 .accordion .card-header {
@@ -2256,7 +2256,7 @@ a.back-to-top:focus {
   font-weight: normal;
   display: block;
   bottom: -18px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   width: 100%;
   text-align: center;
 }
@@ -2434,6 +2434,6 @@ a.back-to-top:focus {
   border-color: #fff;
 }
 
-.event-topics > .col-xs-12.col-md-6.col-lg-4 {
+.event-topics > .col-12.col-md-6.col-lg-4 {
   margin-bottom: 30px;
 }
