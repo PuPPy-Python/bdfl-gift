@@ -88,6 +88,10 @@ ol li {
   letter-spacing: 0.1rem;
 }
 
+.honored_guests {
+  background: #f3f4f3;
+}
+
 .modal-body {
   text-align: left;
 }
