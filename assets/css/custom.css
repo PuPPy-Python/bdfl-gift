@@ -118,3 +118,11 @@ section#faq {
 .list-content-padding {
   padding: 0 15px 36px 30px
 }
+
+
+/*==> Media Queries <==*/
+@media (max-width: 1199px) and (min-width: 992px) {
+  #sponsors .spnsors-logo img {
+    width: 100%;
+  }
+}
