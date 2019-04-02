@@ -178,7 +178,7 @@
                                         </div>
                                         <div class="checkbox">
                                           <label>
-                                            <input type="checkbox" name="subscribe" id="subscribe" checked style="margin-right: 10px;height: 18px;width: 18px;">
+                                            <input type="checkbox" name="subscribe" id="subscribe" checked="false" style="margin-right: 10px;height: 18px;width: 18px;">
                                             Are you okay with receiving solicitation for donating to CSfoALL, the Python Software Foundation, and PuPPy?
                                           </label>
                                         </div>
@@ -349,7 +349,7 @@
             });
             $('#fname').val('')
             $('#email').val('')
-            $('#subscribe').prop('checked', true)
+            $('#subscribe').prop('checked', false)
           })
           .fail(function() {
             toastr.error('An error occured. Please try again', '', {
