@@ -169,18 +169,19 @@
                             <div class="col-md-6 col-sm-12 col-6">
                                     <form method="post" id="email-form">
                                         <div class="form-group">
-                                            <label for="email">First name:</label>
+                                            <label for="email">Your full name:</label>
                                             <input type="text" class="form-control" id="fname" required>
                                         </div>
-                                        <div class="form-group">
-                                                <label for="email">Last name:</label>
-                                                <input type="text" class="form-control" id="lname" required>
-                                            </div>
                                         <div class="form-group">
                                           <label for="email">Email address:</label>
                                           <input type="email" class="form-control" id="email" required>
                                         </div>
-
+                                        <div class="checkbox">
+                                          <label>
+                                            <input type="checkbox" name="subscribe" id="subscribe" checked style="margin-right: 10px;height: 18px;width: 18px;">
+                                            Are you okay with receiving solicitation for donating to CSfoALL, the Python Software Foundation, and PuPPy?
+                                          </label>
+                                        </div>
                                         <button type="submit" class="btn btn-primary">Submit</button>
                                       </form> 
 
@@ -331,11 +332,30 @@
     <script src="assets/js/map.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/js/toastr.js"></script>
     <script>
+
       $('#email-form').submit(function (e) {
         e.preventDefault()
-        toastr.success("Thank you for subscribing! The livestream link has been sent to your email", '', {
-          timeOut: "3000"
-        });
+        $.ajax('https://us-central1-enpage-staging.cloudfunctions.net/sendPuppyMail', {
+          method: 'POST',
+          data: {
+            full_name: $('#fname').val(),
+            email: $('#email').val(),
+            opt_in_email: $('#subscribe').prop('checked').toString()
+          }
+        })
+          .done(function() {
+            toastr.success('Thank you for subscribing! The livestream link has been sent to your email', '', {
+              timeOut: "5000"
+            });
+            $('#fname').val('')
+            $('#email').val('')
+            $('#subscribe').prop('checked', true)
+          })
+          .fail(function() {
+            toastr.error('An error occured. Please try again', '', {
+              timeOut: "3000"
+            });
+          })
       });
     </script>
     <script
